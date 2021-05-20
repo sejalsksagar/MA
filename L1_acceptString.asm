@@ -10,7 +10,6 @@ outMsg1len	equ	$ - outMsg1
 
 section 	.bss
 str: resw 30
-num resb 4
 
 section	.text
 	global _start       ;must be declared for using gcc
